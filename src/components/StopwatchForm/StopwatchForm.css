@@ -1,0 +1,36 @@
+.stopwatch-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch-form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 60%;
+}
+
+.stopwatch-form .error {
+  color: red;
+  margin: 10px 0;
+}
+
+.stopwatch-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stopwatch-form button:hover {
+  background-color: #0056b3;
+}
